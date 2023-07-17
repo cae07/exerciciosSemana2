@@ -6,7 +6,12 @@
 ### Como utilizar esse repositório
 
  * faça o clone do repositório <br>
-``` git@github.com:cae07/exerciciosSemana2.git ```
+``` git clone git@github.com:cae07/exerciciosSemana2.git ```
+
+<b>ou via http</b>
+
+```git clone https://github.com/cae07/exerciciosSemana2.git ```
+
  * Entre na pasta clonada e instale as dependencias <br>
 ``` cd exerciciosSemana2 ``` <br>
 ``` npm install ``` <br>
