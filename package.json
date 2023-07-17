@@ -1,0 +1,25 @@
+{
+  "name": "exercicios-da-semana-2",
+  "version": "1.0.0",
+  "description": "<br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cae07/exerciciosSemana2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cae07/exerciciosSemana2/issues"
+  },
+  "homepage": "https://github.com/cae07/exerciciosSemana2#readme",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-trybe-fundamentals": "^1.1.1",
+    "jest": "^29.6.1"
+  }
+}
