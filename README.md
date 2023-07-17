@@ -150,6 +150,8 @@ decoder('Ol1 t5rm1.')
 
 -------------
 
+## EXERCÍCIOS BÔNUS
+
 ### Exercício 8 - Função phoneNumber(array)
 
 Esta função recebe um array com números e retorna o número de telefone formatado, deve respeitar as seguintes regras:
