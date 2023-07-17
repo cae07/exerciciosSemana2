@@ -18,6 +18,16 @@
 
  * Siga as instruções desse repositório e divirta-se
 
+## Depois de finalizar o desenvolvimento desses algoritmos
+
+### fique a vontade de subir um PR pra eu olhar se quiser <br>
+
+```
+git add .
+git commit -m "descrição do commit"
+git push -u origin nomeDaSuaBranch
+ ```
+
  ----------
 
 ### Exercicio 1 - Função validateIsNumber(number) <br>
