@@ -28,6 +28,9 @@ git commit -m "descrição do commit"
 git push -u origin nomeDaSuaBranch
  ```
 
+ # AVISO:
+ ## Não altere o arquivo de testes. Fique a vontade para analisá-lo, mas nunca para alterá-lo.
+
  ----------
 
 ### Exercicio 1 - Função validateIsNumber(number) <br>
@@ -174,7 +177,7 @@ decoder('Ol1 t5rm1.')
 
 -------------
 
-### Exercício 8 - Função welcome(string, string)
+### Exercício 8 - Função welcome(language, name)
 
 Esta função recebe dois parâmetros:
  - language: string;
@@ -294,3 +297,10 @@ E calcula a quantidade de tinta necessária para pintar toda a parede, levando e
 calculatePaint(450, 210);
 // 'Você precisa de 1 lata de 5 litros, 1 lata de 1 litro e 1 lata de 0,5 litros para realizar esse trabalho.'
 ```
+
+----------
+
+### BÔNUS FINAL
+
+ - Transforme todos os métodos desse repositório para arrowFunctions;
+ - Resolva todos os problemas de linter que existirem.
