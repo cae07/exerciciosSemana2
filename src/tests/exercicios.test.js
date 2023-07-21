@@ -7,6 +7,7 @@ const {
   fizzBuzz,
   encoder,
   decoder,
+  welcome,
   phoneNumber,
   calculatePaint,
 } = require('../exercicios');
@@ -30,7 +31,13 @@ const {
   expectArray3,
   expectedPaintResponse1,
   expectedPaintResponse2,
-  expectedPaintResponse3
+  expectedPaintResponse3,
+  expectWelcomeResponse1,
+  expectWelcomeResponse2,
+  expectWelcomeResponse3,
+  expectWelcomeErrorResponse1,
+  expectWelcomeErrorResponse2,
+  expectWelcomeErrorResponse3
 } = require('./mocks');
 
 describe('Start tests', () => {
@@ -103,6 +110,23 @@ describe('Start tests', () => {
       expect(decoder('A m2n3n1 d4s 4lh4s.')).toBe('A menina dos olhos.');
     });
   });
+
+  describe('function welcome', () => {
+    it('Verify method is returning the correctly answer', () => {
+      expect(welcome('english', 'Rachel')).toBe(expectWelcomeResponse1);
+      expect(welcome('English', 'Rachel')).toBe(expectWelcomeResponse1);
+      expect(welcome('dutch', 'José')).toBe(expectWelcomeResponse2);
+      expect(welcome('dUtcH', 'José')).toBe(expectWelcomeResponse2);
+      expect(welcome('italian', 'Adriana')).toBe(expectWelcomeResponse3);
+      expect(welcome('ITALIan', 'Adriana')).toBe(expectWelcomeResponse3);
+    });
+
+    it('Verify method throws error with unknow language', () => {
+      expect(() => { welcome('batata', 'Rachel') }).toThrow(new Error(expectWelcomeErrorResponse1));
+      expect(() => { welcome('123456', 'Rachel') }).toThrow(new Error(expectWelcomeErrorResponse2));
+      expect(() => { welcome('fff', 'José') }).toThrow(new Error(expectWelcomeErrorResponse3));
+    })
+  })
 
   describe('function phoneNumber', () => {
     it('Verify method is returning the phone number in the correctly format', () => {

@@ -1,3 +1,5 @@
+const { translator } = require('./tests/mocks');
+
 // Exercicio 1
 function validateIsNumber(number) {
   // apague a linha abaixo para implementar código aqui
@@ -47,12 +49,18 @@ function decoder(string) {
 }
 
 // Exercicio 8
-function phoneNumber(array) {
+function welcome(language, name) {
   // apague a linha abaixo para implementar código aqui
   throw new Error('função não implementada');
 }
 
 // Exercicio 9
+function phoneNumber(array) {
+  // apague a linha abaixo para implementar código aqui
+  throw new Error('função não implementada');
+}
+
+// Exercicio 10
 function calculatePaint(heigh, width) {
   // apague a linha abaixo para implementar código aqui
   throw new Error('função não implementada');
@@ -67,6 +75,7 @@ module.exports = {
   fizzBuzz,
   encoder,
   decoder,
+  welcome,
   phoneNumber,
   calculatePaint,
 };

@@ -21,6 +21,34 @@ const expectedPaintResponse1 = 'Você precisa de 1 lata de 5 litros, 4 latas de 
 const expectedPaintResponse2 = 'Você precisa de 1 lata de 5 litros e 1 lata de 0,5 litros para realizar esse trabalho.';
 const expectedPaintResponse3 = 'Você precisa de 4 latas de 1 litro e 1 lata de 0,5 litros para realizar esse trabalho.';
 
+const expectWelcomeResponse1 = 'Welcome Rachel.'
+const expectWelcomeResponse2 = 'Welkom José.'
+const expectWelcomeResponse3 = 'Benvenuto Adriana.'
+
+const expectWelcomeErrorResponse1 = 'O idioma batata não foi encontrado. Por favor tente novamente mais tarde.'
+const expectWelcomeErrorResponse2 = 'O idioma 123456 não foi encontrado. Por favor tente novamente mais tarde.'
+const expectWelcomeErrorResponse3 = 'O idioma fff não foi encontrado. Por favor tente novamente mais tarde.'
+
+const translator = {
+  english: 'Welcome',
+  czech: 'Vitejte',
+  danish: 'Velkomst',
+  dutch: 'Welkom',
+  estonian: 'Tere tulemast',
+  finnish: 'Tervetuloa',
+  flemish: 'Welgekomen',
+  french: 'Bienvenue',
+  german: 'Willkommen',
+  irish: 'Failte',
+  italian: 'Benvenuto',
+  latvian: 'Gaidits',
+  lithuanian: 'Laukiamas',
+  polish: 'Witamy',
+  spanish: 'Bienvenido',
+  swedish: 'Valkommen',
+  welsh: 'Croeso'
+}
+
 module.exports = {
   arrayStrings1,
   arrayStrings2,
@@ -40,5 +68,12 @@ module.exports = {
   expectArray3,
   expectedPaintResponse1,
   expectedPaintResponse2,
-  expectedPaintResponse3
+  expectedPaintResponse3,
+  translator,
+  expectWelcomeResponse1,
+  expectWelcomeResponse2,
+  expectWelcomeResponse3,
+  expectWelcomeErrorResponse1,
+  expectWelcomeErrorResponse2,
+  expectWelcomeErrorResponse3
 }

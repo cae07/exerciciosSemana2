@@ -157,12 +157,69 @@ decoder('Ol1 t5rm1.')
 // 'Ola turma.'
 ```
 
+-------------
+
+### Exercício 8 - Função welcome(string, string)
+
+Esta função recebe dois parâmetros:
+ - language: string;
+ - name: string;
+
+E retorna uma string com a saudação de acordo com o idioma e nome fornecidos, ex:
+
+Neste exercício você tem um dataBase (vulgo objeto) disponível para poder retornar a saudação na lingua da pessoa inserida como parâmetro.
+
+<b>Exemplo:</b>
+
+```
+welcome('english', 'Maria')
+// 'Welcome Maria.'
+```
+
+Se o idioma fornecido não existir no dataBase, deve-se então retornar um erro com a mensagem:
+
+<b>O idioma parametroLanguage não foi encontrado. Por favor tente novamente mais tarde.</b>
+
+<b>Exemplo:</b>
+
+```
+welcome('batata', 'Maria')
+// 'O idioma batata não foi encontrado. Por favor tente novamente mais tarde.'
+```
+
+
+O objeto disponível é exatamente como esse abaixo.
+
+```
+const translator = {
+  english: 'Welcome',
+  czech: 'Vitejte',
+  danish: 'Velkomst',
+  dutch: 'Welkom',
+  estonian: 'Tere tulemast',
+  finnish: 'Tervetuloa',
+  flemish: 'Welgekomen',
+  french: 'Bienvenue',
+  german: 'Willkommen',
+  irish: 'Failte',
+  italian: 'Benvenuto',
+  latvian: 'Gaidits',
+  lithuanian: 'Laukiamas',
+  polish: 'Witamy',
+  spanish: 'Bienvenido',
+  swedish: 'Valkommen',
+  welsh: 'Croeso'
+}
+```
+
+
+
 
 -------------
 
 ## EXERCÍCIOS BÔNUS
 
-### Exercício 8 - Função phoneNumber(array)
+### Exercício 9 - Função phoneNumber(array)
 
 Esta função recebe um array com números e retorna o número de telefone formatado, deve respeitar as seguintes regras:
 
@@ -189,7 +246,7 @@ phoneNumber('11985233214');
 
 ----------
 
-### Exercício 9 - Função calculatePaint(heigh, width)
+### Exercício 10 - Função calculatePaint(heigh, width)
 
 Esta função recebe dois parâmetros de entrada que são as medidas de uma parede:
 * heigh => altura em centímetros
