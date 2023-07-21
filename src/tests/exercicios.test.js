@@ -109,9 +109,9 @@ describe('Start tests', () => {
 
   describe('06) function fizzBuzz', () => {
     it('Verify method is returning the expected array of strings', () => {
-      expect(fizzBuzz(arrayNumbers4)).toBe(expectArray1);
-      expect(fizzBuzz(arrayNumbers5)).toBe(expectArray2);
-      expect(fizzBuzz(arrayNumbers6)).toBe(expectArray3);
+      expect(fizzBuzz(arrayNumbers4)).toEqual(expectArray1);
+      expect(fizzBuzz(arrayNumbers5)).toEqual(expectArray2);
+      expect(fizzBuzz(arrayNumbers6)).toEqual(expectArray3);
     });
   });
 
