@@ -16,6 +16,11 @@
  * crie uma branch para trabalhar <br>
 ``` git checkout -b nomeDaSuaBranch ```
 
+### Comandos de terminal
+
+ - npm install => instala dependências do projeto;
+ - npm run test => roda os testes da aplicação;
+
  * Siga as instruções desse repositório e divirta-se
 
 ## Depois de finalizar o desenvolvimento desses algoritmos
@@ -68,7 +73,7 @@ calculateTriangleArea(4, 5);
 ----------------
 
 ### Exercício 3 - Função concatString(array)
-Este método recebe um array de strings como parâmetro e retorna uma string no formato "primeiroItem, segundoItem".
+Este método recebe um array de strings como parâmetro e retorna uma string no formato "primeiroItem, ultimoItem".
 
 <b>Exemplo:</b> 
 
