@@ -1,3 +1,5 @@
+/* eslint-disable no-restricted-globals */
+// ESSE É O RETORNO DA API PARA REALIZAR O EXERCICIO 8
 const { translator } = require('./tests/mocks');
 
 // Exercicio 1

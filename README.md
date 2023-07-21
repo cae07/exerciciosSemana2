@@ -100,6 +100,8 @@ teamPoints(3, 4);
 
 -------------
 
+<b><h2 style="color: yellow; text-shadow: red 1px 1px">A partir deste ponto começaremos a implementar condições de erro em alguns exercícios</h2></b>
+
 ### Exercício 5 - Função highestNumber(array)
 Este método recebe um array de numbers e retorna uma string quantas vezes o número com o maior valor se repete neste array no seguinte formatto: <br>
 * "O número x se repete x vezes nesse array." => se o número de repetições for maior que 1 vez <br>
@@ -111,6 +113,19 @@ Este método recebe um array de numbers e retorna uma string quantas vezes o nú
 highestNumber([1, 8, 3, 8, 4, 5, 7, 8])
 // "O número 8 se repete 3 vezes nesse array."
 ```
+
+### Casos de erro
+ - Se algum dos valores não for do tipo number, espera que o método dispare um erro com a mensagem:
+ 
+ ```Apenas tipos number são aceitos como parâmetro.```
+
+ <b>Exemplo:</b>  <br>
+
+```
+highestNumber([1, 8, 3, "A", 4, 5, "7", 8])
+// "Apenas tipos number são aceitos como parâmetro."
+```
+
 ----------
 
 ### Exercício 6 - Função fizzBuzz(array)
@@ -176,7 +191,9 @@ welcome('english', 'Maria')
 // 'Welcome Maria.'
 ```
 
-Se o idioma fornecido não existir no dataBase, deve-se então retornar um erro com a mensagem:
+## Casos de erro:
+
+ - Se o idioma fornecido não existir no dataBase, deve-se então retornar um erro com a mensagem:
 
 <b>O idioma parametroLanguage não foi encontrado. Por favor tente novamente mais tarde.</b>
 
@@ -185,6 +202,18 @@ Se o idioma fornecido não existir no dataBase, deve-se então retornar um erro 
 ```
 welcome('batata', 'Maria')
 // 'O idioma batata não foi encontrado. Por favor tente novamente mais tarde.'
+```
+
+ - Se passar um nome inválido por parâmetro, deve-se então retornar um erro com a mensagem:
+
+<b>O nome nomePassado não existe. Por favor insira um nome válido.</b> <br>
+<b style="color: orangered; ; text-shadow: black 0.5px 0.5px">ps: Nomes inválidos são nomes que possuem números juntamente com os caracteres do nome</b>
+
+<b>Exemplo:</b>
+
+```
+welcome('german', 'P3dr0')
+// 'O nome P3dr0 não existe. Por favor insira um nome válido.'
 ```
 
 
