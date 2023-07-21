@@ -304,3 +304,8 @@ calculatePaint(450, 210);
 
  - Transforme todos os métodos desse repositório para arrowFunctions;
  - Resolva todos os problemas de linter que existirem.
+ - Acesse o site codeWars para outros exercícios seguindo essa mesma linha
+
+ ```https://www.codewars.com/```
+
+ Além de quebrar a cabeça tentando resolver o algoritmo, depois de conseguir você tem acesso ao código de outras pessoas e poderá ver outras maneiras de resolver a mesma coisa. APROVEITE!
